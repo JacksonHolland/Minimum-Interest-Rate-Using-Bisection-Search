@@ -1,8 +1,3 @@
-## 6.100A PSet 1: Part C
-## Name: Jackson Holland
-## Time Spent: 1.25 hours
-## Collaborators: NA
-
 ##############################################
 ## Get user input for initial_deposit below ##
 ##############################################
@@ -11,7 +6,7 @@ cost_of_house = float(input('Enter the cost of the house: '))
 portion_of_house = (float(input('Enter the down payment percentage: '))/100)
 
 #########################################################################
-## Initialize other variables you need (if any) for your program below ##
+## Initializing other variables ##
 #########################################################################
 cost_of_down_payment = cost_of_house * portion_of_house
 
@@ -28,7 +23,6 @@ control = True
 steps = 0
 
 ##################################################################################################
-## Determine the lowest rate of return needed to get the down payment for your dream home below ##
 ##################################################################################################
 if initial_deposit >= lower_bound:
     r = 0
